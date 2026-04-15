@@ -1,1 +1,54 @@
-mirror.sh
+# Dependencies
+node_modules
+node_modules/
+
+# Build outputs
+dist
+dist/
+*.js
+*.js.map
+
+# Environment variables
+.*
+./.*
+.env
+.env.local
+.env.*.local
+
+# Git worktrees
+worktrees/
+worktrees/*
+
+# Editor/IDE files
+.vscode/
+.idea/
+.nanocoder/
+.eslintcache
+coverage/
+*.tsbuildinfo
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store/*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*/.DS_Store
+*/.DS_Store?
+*/._*
+*/.Spotlight-V100
+*/.Trashes
+
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
