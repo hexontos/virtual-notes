@@ -8,9 +8,42 @@ dist/
 *.js
 *.js.map
 
+# Native / C build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+cmake_install.cmake
+bin/
+obj/
+out/
+debug/
+release/
+Debug/
+Release/
+/main
+/virtual-notes
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Local runtime data
+data.json
+
 # Environment variables
-.*
-./.*
 .env
 .env.local
 .env.*.local
